@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Ocean Waves - Teal-Cyan Gradient Palette -->
+    <color name="teal_primary">#14B8A6</color>
+    <color name="teal_dark">#0D9488</color>
+    <color name="cyan_primary">#06B6D4</color>
+    <color name="cyan_dark">#0891B2</color>
+    <color name="blue_light">#0EA5E9</color>
+    
+    <!-- Primary Theme Colors -->
+    <color name="primary">#14B8A6</color>
+    <color name="primary_dark">#0D9488</color>
+    <color name="primary_light">#06B6D4</color>
+    <color name="accent">#0EA5E9</color>
+    <color name="accent_light">#38BDF8</color>
+    
+    <!-- Background Colors -->
+    <color name="background">#F0FDFA</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="surface">#E0F2FE</color>
+    <color name="glass_background">#E6FFFFFF</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#475569</color>
+    <color name="text_hint">#94A3B8</color>
+    <color name="text_on_teal">#FFFFFF</color>
+    
+    <!-- Status Colors -->
+    <color name="success">#14B8A6</color>
+    <color name="warning">#F59E0B</color>
+    <color name="error">#EF4444</color>
+    
+    <!-- Score-Based Grade Colors (Ocean Waves Theme) -->
+    <color name="score_gold">#F2C94C</color>
+    <color name="score_gold_bg">#FEF3C7</color>
+    <color name="score_excellent">#0EA5E9</color>
+    <color name="score_good">#06B6D4</color>
+    <color name="score_average">#0891B2</color>
+    <color name="score_poor">#0F766E</color>
+    
+    <!-- Glassmorphism -->
+    <color name="glass_white">#CCFFFFFF</color>
+    <color name="glass_teal">#CC14B8A6</color>
+    <color name="shadow_light">#1A000000</color>
+</resources>
