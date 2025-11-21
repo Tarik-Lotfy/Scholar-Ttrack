@@ -7,7 +7,6 @@
     android:background="@color/background"
     android:fitsSystemWindows="true">
 
-    <!-- Ocean Wave Gradient Header -->
     <View
         android:id="@+id/headerBackground"
         android:layout_width="0dp"
@@ -17,7 +16,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Title -->
     <TextView
         android:id="@+id/tvLeaderboardTitle"
         android:layout_width="wrap_content"
@@ -31,7 +29,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Trophy Icon -->
     <ImageView
         android:id="@+id/ivTrophy"
         android:layout_width="60dp"
@@ -44,7 +41,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvLeaderboardTitle" />
 
-    <!-- Podium Container (Top 3) -->
     <LinearLayout
         android:id="@+id/podiumContainer"
         android:layout_width="0dp"
@@ -59,7 +55,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/ivTrophy">
 
-        <!-- 2nd Place (Left) -->
         <LinearLayout
             android:id="@+id/secondPlaceContainer"
             android:layout_width="0dp"
@@ -125,7 +120,6 @@
 
             </com.google.android.material.card.MaterialCardView>
 
-            <!-- Podium Block 2nd -->
             <View
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
@@ -134,7 +128,6 @@
 
         </LinearLayout>
 
-        <!-- 1st Place (Center - Taller) -->
         <LinearLayout
             android:id="@+id/firstPlaceContainer"
             android:layout_width="0dp"
@@ -283,7 +276,6 @@
 
             </com.google.android.material.card.MaterialCardView>
 
-            <!-- Podium Block 3rd -->
             <View
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
@@ -294,7 +286,6 @@
 
     </LinearLayout>
 
-    <!-- Full Rankings Section -->
     <TextView
         android:id="@+id/tvRankingsTitle"
         android:layout_width="wrap_content"
@@ -308,7 +299,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/podiumContainer" />
 
-    <!-- Full Rankings RecyclerView -->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerViewRankings"
         android:layout_width="0dp"
@@ -324,7 +314,6 @@
         app:layout_constraintTop_toBottomOf="@id/tvRankingsTitle"
         tools:listitem="@layout/item_leaderboard" />
 
-    <!-- Empty State -->
     <TextView
         android:id="@+id/tvEmptyState"
         android:layout_width="wrap_content"
@@ -338,7 +327,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/headerBackground" />
 
-    <!-- Bottom Navigation Bar -->
     <include
         android:id="@+id/bottomNavigation"
         layout="@layout/bottom_navigation"
